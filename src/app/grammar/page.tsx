@@ -39,7 +39,7 @@ const grammarRules = [
 
 export default function Grammar() {
   return (
-    <div className="container mx-auto p-4">
+    <div className=" mx-auto p-4">
       <h1 className="text-3xl font-bold mb-8 text-center">Grammaire Turque</h1>
       <Accordion type="single" collapsible className="w-full">
         {grammarRules.map((rule, index) => (

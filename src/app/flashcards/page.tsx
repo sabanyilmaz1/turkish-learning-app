@@ -4,19 +4,13 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, ArrowRight, Rotate3D } from "lucide-react";
-
-const flashcards = [
-  { front: "Merhaba", back: "Bonjour" },
-  { front: "Nasılsın", back: "Comment allez-vous" },
-  { front: "Teşekkür ederim", back: "Merci" },
-  { front: "Güle güle", back: "Au revoir" },
-  { front: "Evet", back: "Oui" },
-  { front: "Hayır", back: "Non" },
-];
+import { flashcards } from "./data";
 
 export default function Flashcards() {
   const [currentCard, setCurrentCard] = useState(0);
   const [showFront, setShowFront] = useState(true);
+
+  console.log(flashcards.length);
 
   const nextCard = () => {
     setCurrentCard((prev) => (prev + 1) % flashcards.length);
@@ -35,11 +29,11 @@ export default function Flashcards() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className=" mx-auto p-4">
       <h1 className="text-3xl font-bold mb-8 text-center">
         Flashcards de Vocabulaire Turc
       </h1>
-      <Card className="w-full max-w-md mx-auto">
+      <Card className="w-full mx-auto">
         <CardContent className="p-6">
           <div
             className="aspect-[3/2] flex items-center justify-center text-2xl font-bold cursor-pointer"
@@ -49,9 +43,10 @@ export default function Flashcards() {
               ? flashcards[currentCard].front
               : flashcards[currentCard].back}
           </div>
+          {!showFront && <p>{flashcards[currentCard].exemple}</p>}
         </CardContent>
       </Card>
-      <div className="flex justify-center mt-6 gap-4">
+      <div className="flex justify-center mt-6 gap-2">
         <Button onClick={prevCard}>
           <ArrowLeft className="mr-2" /> Précédent
         </Button>

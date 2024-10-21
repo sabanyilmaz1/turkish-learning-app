@@ -11,12 +11,12 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body>
-        <nav className="bg-primary hidden lg:block text-primary-foreground p-4">
-          <div className="container mx-auto flex justify-between items-center">
+        <nav className="bg-primary text-primary-foreground p-4">
+          <div className=" mx-auto flex justify-between items-center">
             <Link href="/" className="text-2xl font-bold">
               TurkishLearner
             </Link>
-            <div className="space-x-4">
+            <div className="space-x-4 hidden lg:block">
               <Link href="/flashcards">
                 <Button variant="secondary">Flashcards</Button>
               </Link>
