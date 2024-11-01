@@ -1,28 +1,5 @@
 export const flashcards = [
   {
-    front: "Tıpatıp",
-    back: "Exactement identique",
-    context: "Utilisé pour décrire deux choses parfaitement identiques.",
-    exemple:
-      "İkiz kardeşler tıpatıp birbirine benziyor. (Les jumeaux se ressemblent exactement.)",
-  },
-  {
-    front: "Eşindiğimi",
-    back: "Que je gratte",
-    context:
-      "Utilisé pour décrire le fait de fouiller ou gratter quelque chose, souvent de manière répétitive.",
-    exemple:
-      "Bahçede toprağı eşindiğimi gördü. (Il m’a vu gratter la terre dans le jardin.)",
-  },
-  {
-    front: "Rastlantılar",
-    back: "Coïncidences",
-    context:
-      "Utilisé pour des événements inattendus ou des rencontres fortuites.",
-    exemple:
-      "Hayattaki rastlantılar bazen çok şaşırtıcı olabilir. (Les coïncidences dans la vie peuvent parfois être très surprenantes.)",
-  },
-  {
     front: "Kalabalığı",
     back: "La foule",
     context: "Utilisé pour désigner un grand groupe de personnes rassemblées.",
@@ -36,60 +13,6 @@ export const flashcards = [
       "Peut désigner le cadre d’un tableau ou les limites abstraites d'une situation.",
     exemple:
       "Tablonun çerçevesi çok eski. (Le cadre du tableau est très ancien.)",
-  },
-  {
-    front: "İri gözlü",
-    back: "Aux grands yeux",
-    context: "Décrit une personne ayant de grands yeux.",
-    exemple: "O, iri gözlü bir çocuk. (C’est un enfant aux grands yeux.)",
-  },
-  {
-    front: "Büyüleyici",
-    back: "Fascinant",
-    context: "Utilisé pour quelque chose de très captivant ou impressionnant.",
-    exemple: "Büyüleyici bir manzaraydı. (C’était un paysage fascinant.)",
-  },
-  {
-    front: "Ürpertiyor",
-    back: "Fait frissonner",
-    context:
-      "Utilisé pour décrire une sensation de frisson, souvent due à la peur ou au froid.",
-    exemple: "Rüzgar, beni ürpertiyor. (Le vent me fait frissonner.)",
-  },
-  {
-    front: "Şaşılası",
-    back: "Étonnant",
-    context: "Utilisé pour quelque chose de surprenant ou d’inattendu.",
-    exemple:
-      "Onun bu kadar hızlı koşması şaşılası. (C’est étonnant qu’il coure si vite.)",
-  },
-  {
-    front: "Fikriyle",
-    back: "Avec son idée",
-    context: "Utilisé pour parler de l’idée ou de la pensée de quelqu’un.",
-    exemple:
-      "Fikriyle herkesi etkiledi. (Il a impressionné tout le monde avec son idée.)",
-  },
-  {
-    front: "Göçlerin",
-    back: "Des migrations",
-    context: "Utilisé pour parler des déplacements de populations.",
-    exemple:
-      "Tarihte birçok göçler yaşanmıştır. (Il y a eu de nombreuses migrations dans l’histoire.)",
-  },
-  {
-    front: "Göçmenlerin",
-    back: "Des migrants",
-    context:
-      "Utilisé pour décrire des personnes qui se déplacent pour s’établir dans un nouveau lieu.",
-    exemple:
-      "Göçmenlerin sayısı her yıl artıyor. (Le nombre de migrants augmente chaque année.)",
-  },
-  {
-    front: "Kederle",
-    back: "Avec tristesse",
-    context: "Utilisé pour exprimer un sentiment de tristesse.",
-    exemple: "Kederle uzaklara baktı. (Il a regardé au loin avec tristesse.)",
   },
   {
     front: "Seyahat et",
@@ -106,65 +29,7 @@ export const flashcards = [
       "Utilisé pour désigner les grandes masses terrestres de la planète.",
     exemple: "Afrika, büyük bir kıta. (L’Afrique est un grand continent.)",
   },
-  {
-    front: "Uygarlık",
-    back: "Civilisation",
-    context:
-      "Utilisé pour parler du développement culturel, technologique et scientifique d’un peuple.",
-    exemple:
-      "Mısır uygarlığı tarihte çok önemlidir. (La civilisation égyptienne est très importante dans l’histoire.)",
-  },
-  {
-    front: "Sürgünden",
-    back: "De l'exil",
-    context: "Utilisé pour parler du fait d'être expulsé ou banni de son pays.",
-    exemple: "Sürgünden geri döndü. (Il est revenu de l'exil.)",
-  },
-  {
-    front: "Kehanetin",
-    back: "De la prophétie",
-    context: "Utilisé pour parler d’une prédiction ou d’une vision du futur.",
-    exemple:
-      "Kehanetin doğru çıkacağını düşündü. (Il pensait que la prophétie se réaliserait.)",
-  },
-  {
-    front: "Yoksul",
-    back: "Pauvre",
-    context:
-      "Utilisé pour décrire une personne qui est dans une situation de grande pauvreté.",
-    exemple:
-      "Bu köyde birçok yoksul aile var. (Il y a beaucoup de familles pauvres dans ce village.)",
-  },
-  {
-    front: "En ücra",
-    back: "Le plus reculé",
-    context:
-      "Utilisé pour décrire un endroit très éloigné ou difficile d'accès.",
-    exemple:
-      "En ücra köylere kadar gittik. (Nous sommes allés jusqu’aux villages les plus reculés.)",
-  },
-  {
-    front: "Yıkım duygusu",
-    back: "Le sentiment de destruction",
-    context: "Utilisé pour parler d’un sentiment de perte ou de ruine.",
-    exemple:
-      "Bu savaşta büyük bir yıkım duygusu yaşandı. (Un grand sentiment de destruction a été ressenti dans cette guerre.)",
-  },
-  {
-    front: "Hüzünle",
-    back: "Avec mélancolie",
-    context: "Utilisé pour exprimer une tristesse profonde.",
-    exemple:
-      "Eski günleri hüzünle hatırladı. (Il se souvint des jours passés avec mélancolie.)",
-  },
-  {
-    front: "Kalıntıları",
-    back: "Les vestiges",
-    context:
-      "Utilisé pour désigner ce qu'il reste d'une chose détruite ou ancienne.",
-    exemple:
-      "Antik kentin kalıntıları burada. (Les vestiges de la cité antique sont ici.)",
-  },
+
   {
     front: "Talihsiz",
     back: "Malchanceux",
@@ -184,20 +49,7 @@ export const flashcards = [
       "Utilisé pour parler du sexe ou du genre biologique d'une personne.",
     exemple: "Cinsiyetim erkek. (Mon sexe est masculin.)",
   },
-  {
-    front: "Gezegenimizde",
-    back: "Sur notre planète",
-    context: "Utilisé pour parler de la planète Terre.",
-    exemple: "Gezegenimizde yaşam var. (Il y a de la vie sur notre planète.)",
-  },
-  {
-    front: "Püskürtmeye",
-    back: "À éjecter",
-    context:
-      "Utilisé pour décrire l'action de projeter rapidement quelque chose.",
-    exemple:
-      "Volkan lav püskürtmeye başladı. (Le volcan a commencé à éjecter de la lave.)",
-  },
+
   {
     front: "Alevlerden",
     back: "Des flammes",
@@ -205,47 +57,7 @@ export const flashcards = [
     exemple:
       "Alevlerden kaçmayı başardılar. (Ils ont réussi à échapper aux flammes.)",
   },
-  {
-    front: "Küllerden",
-    back: "Des cendres",
-    context: "Utilisé pour parler des résidus laissés après la combustion.",
-    exemple:
-      "Yangından geriye sadece küller kaldı. (Il ne reste que des cendres après l’incendie.)",
-  },
-  {
-    front: "Sarsıcı",
-    back: "Bouleversant",
-    context: "Utilisé pour décrire",
-  },
-  {
-    front: "Kereste",
-    back: "Bois de construction",
-    context: "Utilisé pour désigner le bois utilisé dans la construction.",
-    exemple:
-      "Kereste fabrikası çok büyüktü. (L'usine de bois de construction était très grande.)",
-  },
-  {
-    front: "Güpegündüz",
-    back: "En plein jour",
-    context: "Utilisé pour décrire un événement qui se produit en plein jour.",
-    exemple:
-      "Güpegündüz soygun yaptılar. (Ils ont commis un vol en plein jour.)",
-  },
-  {
-    front: "Bu haydutun",
-    back: "Ce bandit",
-    context:
-      "Utilisé pour parler d'une personne qui commet des actes illégaux.",
-    exemple:
-      "Bu haydutun kim olduğunu biliyor musun? (Sais-tu qui est ce bandit ?)",
-  },
-  {
-    front: "Ağabeyime",
-    back: "À mon frère aîné",
-    context: "Utilisé pour parler du grand frère dans une famille.",
-    exemple:
-      "Ağabeyime bir hediye aldım. (J'ai acheté un cadeau pour mon frère aîné.)",
-  },
+
   {
     front: "Daha ince",
     back: "Plus fin",
@@ -270,116 +82,11 @@ export const flashcards = [
       "Kardeşim ilkokula başladı. (Mon frère a commencé l'école primaire.)",
   },
   {
-    front: "Ciltli",
-    back: "Relié",
-    context: "Utilisé pour décrire un livre à couverture rigide.",
-    exemple:
-      "Bu kitap ciltli ve çok dayanıklı. (Ce livre est relié et très résistant.)",
-  },
-  {
-    front: "Sergilendiği",
-    back: "Exposé",
-    context: "Utilisé pour parler de quelque chose qui est montré au public.",
-    exemple: "Bu tablo müzede sergilendi. (Ce tableau a été exposé au musée.)",
-  },
-  {
-    front: "Esrarengiz",
-    back: "Mystérieux",
-    context:
-      "Utilisé pour décrire quelque chose de mystérieux, difficile à comprendre.",
-    exemple: "Esrarengiz bir adam gördüm. (J'ai vu un homme mystérieux.)",
-  },
-  {
-    front: "Höyratça",
-    back: "Grossièrement",
-    context: "Utilisé pour décrire un comportement rude et sans délicatesse.",
-    exemple: "Höyratça konuştu. (Il a parlé de manière grossière.)",
-  },
-  {
-    front: "Sedirler",
-    back: "Cèdres",
-    context: "Utilisé pour désigner des arbres spécifiques, les cèdres.",
-    exemple:
-      "Bu ormanda büyük sedirler var. (Il y a de grands cèdres dans cette forêt.)",
-  },
-  {
-    front: "Dının",
-    back: "Le bruit",
-    context: "Utilisé pour désigner un bruit constant ou désagréable.",
-    exemple:
-      "Arabanın dının sesi beni rahatsız ediyor. (Le bruit constant de la voiture me dérange.)",
-  },
-  {
-    front: "Simgelerinin",
-    back: "De ses symboles",
-    context:
-      "Utilisé pour parler des symboles représentatifs de quelque chose.",
-    exemple:
-      "Bu bayrak, ülkenin simgelerinden biridir. (Ce drapeau est l'un des symboles du pays.)",
-  },
-  {
-    front: "Kasvetli",
-    back: "Sombre",
-    context: "Utilisé pour décrire une atmosphère triste ou déprimante.",
-    exemple: "Kasvetli bir hava vardı. (L'atmosphère était sombre.)",
-  },
-  {
-    front: "Konağının",
-    back: "De son manoir",
-    context: "Utilisé pour parler d'un grand et ancien bâtiment ou résidence.",
-    exemple:
-      "Konağının bahçesi çok genişti. (Le jardin de son manoir était très vaste.)",
-  },
-  {
-    front: "İlhamla",
-    back: "Avec inspiration",
-    context:
-      "Utilisé pour décrire une action faite sous l'influence d'une idée créative ou inspirante.",
-    exemple:
-      "İlhamla bir resim yaptı. (Il a peint un tableau avec inspiration.)",
-  },
-  {
-    front: "Düşlemekten",
-    back: "De rêver",
-    context:
-      "Utilisé pour parler de l'acte de rêver ou d'imaginer quelque chose.",
-    exemple:
-      "Yeni bir hayatı düşlemekten vazgeçmedi. (Il n'a jamais cessé de rêver d'une nouvelle vie.)",
-  },
-  {
-    front: "Şöminen",
-    back: "Ta cheminée",
-    context: "Utilisé pour parler de la cheminée dans une maison.",
-    exemple:
-      "Kışın şöminenin başında oturmayı severim. (J'aime m'asseoir près de la cheminée en hiver.)",
-  },
-  {
-    front: "Rötuşla",
-    back: "Avec une retouche",
-    context: "Utilisé pour parler d'une petite correction ou ajustement.",
-    exemple:
-      "Fotoğrafı rötuşla düzeltti. (Il a corrigé la photo avec une retouche.)",
-  },
-  {
-    front: "Halata kadar",
-    back: "Jusqu'à la corde",
-    context:
-      "Utilisé pour parler d'une limite physique ou métaphorique atteinte.",
-    exemple: "Halata kadar çekti. (Il a tiré jusqu'à la corde.)",
-  },
-  {
     front: "Kuşağın",
     back: "Ta génération",
     context: "Utilisé pour parler d'une génération spécifique.",
     exemple:
       "Kuşağın çok farklı düşünüyor. (Ta génération pense très différemment.)",
-  },
-  {
-    front: "Kıyıları",
-    back: "Les rivages",
-    context: "Utilisé pour désigner les côtes ou bords d'une étendue d'eau.",
-    exemple:
-      "Denizin kıyıları çok güzeldi. (Les rivages de la mer étaient magnifiques.)",
   },
   {
     front: "Bağlanti",
@@ -497,5 +204,96 @@ export const flashcards = [
     context:
       "Utilisé pour indiquer un endroit dans un angle ou à la périphérie d'un espace.",
     exemple: "Kitap köşede duruyor. (Le livre est dans le coin.)",
+  },
+  {
+    front: "iklim güzel",
+    back: "Le climat est bon",
+    context:
+      "Utilisé pour décrire un climat ou une situation qui est favorable.",
+    exemple: "Bu iklim güzel. (Ce climat est bon.)",
+  },
+  {
+    front: "Cerrah",
+    back: "Chirurgien",
+    context: "Utilisé pour désigner un médecin spécialisé en chirurgie.",
+    exemple:
+      "Cerrah ameliyata başladı. (Le chirurgien a commencé l'opération.)",
+  },
+  {
+    front: "Geçirmek",
+    back: "Passer",
+    context:
+      "Utilisé pour parler du fait de passer du temps ou de traverser une expérience.",
+    exemple:
+      "Tatili ailemle geçirdim. (J'ai passé les vacances avec ma famille.)",
+  },
+  {
+    front: "Seviye",
+    back: "Niveau",
+    context: "Utilisé pour indiquer un degré ou une étape dans un processus.",
+    exemple: "Dil seviyem oldukça iyi. (Mon niveau de langue est assez bon.)",
+  },
+  {
+    front: "Tesadüf",
+    back: "Coïncidence",
+    context: "Utilisé pour décrire un événement survenu par hasard.",
+    exemple:
+      "Onu burada görmek büyük bir tesadüf. (Le voir ici est une grande coïncidence.)",
+  },
+  {
+    front: "Yemyeşil",
+    back: "Verdoyant",
+    context: "Utilisé pour décrire quelque chose de très vert, luxuriant.",
+    exemple: "Orman yemyeşildi. (La forêt était verdoyante.)",
+  },
+  {
+    front: "Reçete",
+    back: "Ordonnance",
+    context: "Utilisé pour parler d'une prescription médicale.",
+    exemple: "Doktor reçeteyi yazdı. (Le médecin a écrit l'ordonnance.)",
+  },
+  {
+    front: "Kendinden bahsediyor",
+    back: "Il/Elle parle de lui/d'elle-même",
+    context: "Utilisé pour indiquer que quelqu'un parle de soi.",
+    exemple:
+      "O sürekli kendinden bahsediyor. (Il/elle parle toujours de lui/d'elle-même.)",
+  },
+  {
+    front: "Ara sıra",
+    back: "De temps en temps",
+    context:
+      "Utilisé pour indiquer une action qui se produit occasionnellement.",
+    exemple:
+      "Ara sıra onu ziyaret ederim. (Je lui rends visite de temps en temps.)",
+  },
+  {
+    front: "Cinayet",
+    back: "Meurtre",
+    context:
+      "Utilisé pour désigner l'acte de tuer intentionnellement quelqu'un.",
+    exemple:
+      "Cinayet mahallinde kanıtlar bulundu. (Des preuves ont été trouvées sur le lieu du meurtre.)",
+  },
+  {
+    front: "Gösteriş",
+    back: "Ostentation",
+    context:
+      "Utilisé pour décrire un comportement visant à se faire remarquer.",
+    exemple:
+      "Gösteriş yapmak hoş değil. (Faire de l'ostentation n'est pas agréable.)",
+  },
+  {
+    front: "Mücevher",
+    back: "Bijou",
+    context: "Utilisé pour parler de bijoux ou de pierres précieuses.",
+    exemple:
+      "O, annesinin mücevherlerini taktı. (Elle a porté les bijoux de sa mère.)",
+  },
+  {
+    front: "Ederin",
+    back: "Ta valeur",
+    context: "Utilisé pour parler de la valeur ou du prix de quelque chose.",
+    exemple: "Sen kendi ederini biliyor musun? (Connais-tu ta propre valeur ?)",
   },
 ];
