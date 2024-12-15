@@ -27,7 +27,7 @@ export default function FlashCards() {
 
   if (!currentCard) {
     return (
-      <main className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-zinc-800 p-8">
+      <main className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-zinc-800 p-4 sm:p-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -49,14 +49,14 @@ export default function FlashCards() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-zinc-800 p-8">
-      <div className="max-w-2xl mx-auto">
+    <main className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-zinc-800 p-4 sm:p-8">
+      <div className="max-w-2xl mx-auto space-y-6 sm:space-y-8">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="flex justify-between items-center mb-8"
+          className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-4 sm:mb-8"
         >
-          <div>
+          <div className="w-full sm:w-auto">
             <Link href="/">
               <Button variant="ghost" size="sm" className="gap-2">
                 <Home className="w-4 h-4" />
@@ -64,24 +64,33 @@ export default function FlashCards() {
               </Button>
             </Link>
           </div>
-          <div>
+          <div className="text-center w-full sm:w-auto">
             <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">
               Flash Cards
             </h1>
-            <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
-              Cartes restantes : {remainingCards} | Succès : {progress}/5
-            </p>
           </div>
-          <Button
-            variant="outline"
-            onClick={() => {
-              setStartWithFrench(!startWithFrench);
-              toggleMode();
-            }}
-            className="border-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors duration-300"
-          >
-            {startWithFrench ? "Mode: FR → TR" : "Mode: TR → FR"}
-          </Button>
+          <div className="w-full sm:w-auto flex justify-center">
+            <Button
+              variant="outline"
+              onClick={() => {
+                setStartWithFrench(!startWithFrench);
+                toggleMode();
+              }}
+              className="text-sm"
+            >
+              Mode: {startWithFrench ? "FR → TR" : "TR → FR"}
+            </Button>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="text-center mb-4"
+        >
+          <p className="text-zinc-600 dark:text-zinc-400">
+            Cartes restantes : {remainingCards} | Succès : {progress}/5
+          </p>
         </motion.div>
 
         <div className={styles.cardContainer}>

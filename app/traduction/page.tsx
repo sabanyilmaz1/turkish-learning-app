@@ -53,10 +53,10 @@ export default function TranslationPage() {
             variant="outline"
             onClick={previousWeek}
             disabled={currentWeekIndex === 0}
-            className="w-[120px]"
+            className="w-10 sm:w-[120px]"
           >
-            <ChevronLeft className="mr-2 h-4 w-4" />
-            Précédent
+            <ChevronLeft className="h-4 w-4" />
+            <span className="hidden sm:inline sm:ml-2">Précédent</span>
           </Button>
           <div className="text-center">
             <h2 className="text-xl font-semibold text-zinc-800 dark:text-zinc-200">
@@ -67,10 +67,10 @@ export default function TranslationPage() {
             variant="outline"
             onClick={nextWeek}
             disabled={currentWeekIndex === translations.length - 1}
-            className="w-[100px]"
+            className="w-10 sm:w-[120px]"
           >
-            Suivant
-            <ChevronRight className="ml-2 h-4 w-4" />
+            <span className="hidden sm:inline sm:mr-2">Suivant</span>
+            <ChevronRight className="h-4 w-4" />
           </Button>
         </div>
 
@@ -108,22 +108,19 @@ export default function TranslationPage() {
           </Accordion>
         </Card>
 
-        <div className="flex justify-center gap-2">
-          {translations.map((week, index) => (
-            <Button
-              key={index}
-              variant={currentWeekIndex === index ? "default" : "outline"}
-              size="sm"
-              onClick={() => setCurrentWeekIndex(index)}
-              className={`${
-                currentWeekIndex === index
-                  ? "bg-indigo-500 text-white"
-                  : "text-zinc-600"
-              }`}
-            >
-              Devoirs {index + 1}
-            </Button>
-          ))}
+        <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
+          <div className="flex gap-2 min-w-full pb-2">
+            {translations.map((week, index) => (
+              <Button
+                key={index}
+                variant={currentWeekIndex === index ? "default" : "outline"}
+                onClick={() => setCurrentWeekIndex(index)}
+                className="flex-shrink-0 text-sm py-2 h-auto"
+              >
+                {week.title}
+              </Button>
+            ))}
+          </div>
         </div>
       </div>
     </main>

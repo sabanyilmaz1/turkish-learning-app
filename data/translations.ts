@@ -247,4 +247,101 @@ export const translations: TranslationWeek[] = [
       },
     ],
   },
+  {
+    title: "Devoirs 6",
+    translations: [
+      {
+        french:
+          "J'ai dit à l'électricien qu'il fallait qu'il place la prise ici.",
+        turkish: "Elektrikçiye prizi buraya koyması gerektiğini söyledim.",
+        explanation:
+          "Utilisation de 'gerek'tiğini' pour exprimer 'qu'il fallait' et 'prizi buraya koyması' pour décrire l'action.",
+      },
+      {
+        french:
+          "La mère a dit à son fils qu'il fallait qu'il soit gentil avec les personnes âgées.",
+        turkish: "Anne, oğluna yaşlı kişilerle iyi olması gerektiğini söyledi.",
+        explanation:
+          "Usage de 'iyi olması gerektiğini' pour 'qu'il fallait qu'il soit gentil' avec un ton respectueux.",
+      },
+      {
+        french:
+          "La maman a dit à la nourrice qu'il fallait qu'elle change la couche chaque heure.",
+        turkish: "Anne, dadıya her saat bez değiştirmesi gerektiğini söyledi.",
+        explanation:
+          "Utilisation de 'her saat bez değiştirmesi gerektiğini' pour indiquer une obligation répétée dans le temps.",
+      },
+      {
+        french: "Vous savez ce que vous devez faire.",
+        turkish: "Ne yapmanız gerektiğini biliyorsunuz.",
+        explanation:
+          "Usage de 'yapmanız gerektiğini' pour traduire 'ce que vous devez faire' avec précision.",
+      },
+      {
+        french: "Le maire a dit qu'il fallait construire des nouveaux parcs.",
+        turkish:
+          "Belediye başkanı, yeni parklar yapılması gerektiğini söyledi.",
+        explanation:
+          "Utilisation de 'yeni parklar yapılması gerektiğini' pour indiquer la nécessité de construire de nouveaux parcs.",
+      },
+      {
+        french: "Le professeur a dit qu'il fallait écouter ses camarades.",
+        turkish: "Hoca, arkadaşlarını dinlemesi gerektiğini söyledi.",
+        explanation:
+          "Usage de 'arkadaşlarını dinlemesi gerektiğini' pour indiquer une recommandation ou obligation.",
+      },
+    ],
+  },
+  {
+    title: "Devoirs 7",
+    translations: [
+      {
+        french:
+          "J'ai très mal à la tête, je ne pourrai pas venir au cours demain.",
+        turkish: "Başım çok ağrıyor, yarın derse gelemem.",
+        explanation:
+          "Utilisation de 'çok ağrıyor' pour décrire une douleur intense et de 'gelemem' (je ne pourrai pas venir).",
+      },
+      {
+        french:
+          "Puisque le train que je devais prendre est en retard, je ne peux pas être à l'heure à mon RDV.",
+        turkish:
+          "Binmem gereken trenin geciktiği için, randevuma zamanında gidemeyeceğim.",
+        explanation:
+          "Le train étant en retard ('geciktiği için'), cela implique une impossibilité exprimée avec 'gidemeyeceğim'.",
+      },
+      {
+        french:
+          "Le camion qui devait livrer du béton n'a pas pu venir parce qu'il avait eu un accident.",
+        turkish:
+          "Beton teslim etmesi gereken kamyon, kaza yaptığı için gelemedi.",
+        explanation:
+          "On utilise 'gelemedi' pour montrer que le camion n'est pas venu à cause d'un obstacle.",
+      },
+      {
+        french:
+          "Le chanteur qui devait enregistrer son album n'a pas pu le faire à cause d'une panne d'électricité.",
+        turkish:
+          "Albüm kaydetmesi gereken şarkıcı, elektrik kesintisi yüzünden yapamamış.",
+        explanation:
+          "Exploitation de 'elektrik kesintisi yüzünden' pour expliquer la cause, suivi de 'yapamamış' pour indiquer l'impossibilité.",
+      },
+      {
+        french:
+          "Il paraît qu'il neige beaucoup à Istanbul, je ne pourrai pas aller jusqu'à Ankara en autobus.",
+        turkish:
+          "İstanbul'da çok yağiyormuş, otobüsle Ankara'ya kadar gidemem.",
+        explanation:
+          "Emploi de ' yağiyormuş' pour décrire une situation passée impactant le futur ('gidemem').",
+      },
+      {
+        french:
+          "J'ai demandé au peintre : 'Est-ce que tu ne pourrais pas attendre quelques semaines pour que je te paie ?'",
+        turkish:
+          "Boyacıya, 'Sana ödemem için birkaç hafta bekleyemez misin?' diye sordum.",
+        explanation:
+          "Utilisation de 'bekleyemez misin?' pour formuler une question négative polie et de 'diye sordum' pour indiquer que la question a été posée.",
+      },
+    ],
+  },
 ];
