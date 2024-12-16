@@ -43,9 +43,6 @@ export default function TranslationPage() {
           <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">
             Exercices de Traduction
           </h1>
-          <p className="text-zinc-600 dark:text-zinc-400">
-            Pratiquez la traduction avec des phrases courantes
-          </p>
         </div>
 
         <div className="flex items-center justify-between mb-6">

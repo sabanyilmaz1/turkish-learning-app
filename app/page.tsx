@@ -17,9 +17,6 @@ export default function Home() {
           <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">
             Apprendre le Turc
           </h1>
-          <p className="text-zinc-600 dark:text-zinc-400">
-            Votre compagnon d&apos;apprentissage de la langue turque
-          </p>
         </div>
 
         <div className="grid gap-6">
