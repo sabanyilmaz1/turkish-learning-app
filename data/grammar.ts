@@ -5,35 +5,35 @@ interface GrammarRule {
 }
 
 export const grammarRules: GrammarRule[] = [
-  {
-    title: "L'ordre des mots en turc",
-    content:
-      "En turc, l'ordre des mots de base est Sujet-Objet-Verbe (SOV). Par exemple : 'Ben elma yerim' (Je mange une pomme).",
-    examples: [
-      { turkish: "Ben kitap okuyorum", french: "Je lis un livre" },
-      { turkish: "O çay içiyor", french: "Il/Elle boit du thé" },
-    ],
-  },
-  {
-    title: "Les suffixes de possession",
-    content:
-      "En turc, on utilise des suffixes pour indiquer la possession, plutôt que des pronoms possessifs séparés.",
-    examples: [
-      { turkish: "Evim", french: "Ma maison" },
-      { turkish: "Kitabın", french: "Ton livre" },
-      { turkish: "Arabası", french: "Sa voiture" },
-    ],
-  },
-  {
-    title: "La négation",
-    content:
-      "Pour former la négation en turc, on ajoute généralement le suffixe '-me' ou '-ma' au verbe.",
-    examples: [
-      { turkish: "Biliyorum", french: "Je sais" },
-      { turkish: "Bilmiyorum", french: "Je ne sais pas" },
-      { turkish: "Gelmedi", french: "Il/Elle n'est pas venu(e)" },
-    ],
-  },
+  // {
+  //   title: "L'ordre des mots en turc",
+  //   content:
+  //     "En turc, l'ordre des mots de base est Sujet-Objet-Verbe (SOV). Par exemple : 'Ben elma yerim' (Je mange une pomme).",
+  //   examples: [
+  //     { turkish: "Ben kitap okuyorum", french: "Je lis un livre" },
+  //     { turkish: "O çay içiyor", french: "Il/Elle boit du thé" },
+  //   ],
+  // },
+  // {
+  //   title: "Les suffixes de possession",
+  //   content:
+  //     "En turc, on utilise des suffixes pour indiquer la possession, plutôt que des pronoms possessifs séparés.",
+  //   examples: [
+  //     { turkish: "Evim", french: "Ma maison" },
+  //     { turkish: "Kitabın", french: "Ton livre" },
+  //     { turkish: "Arabası", french: "Sa voiture" },
+  //   ],
+  // },
+  // {
+  //   title: "La négation",
+  //   content:
+  //     "Pour former la négation en turc, on ajoute généralement le suffixe '-me' ou '-ma' au verbe.",
+  //   examples: [
+  //     { turkish: "Biliyorum", french: "Je sais" },
+  //     { turkish: "Bilmiyorum", french: "Je ne sais pas" },
+  //     { turkish: "Gelmedi", french: "Il/Elle n'est pas venu(e)" },
+  //   ],
+  // },
   {
     title: "1. -ip / -ıp / -up / -üp",
     content:
