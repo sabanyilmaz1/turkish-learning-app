@@ -344,4 +344,49 @@ export const translations: TranslationWeek[] = [
       },
     ],
   },
+  {
+    title: "Devoirs 8",
+    translations: [
+      {
+        french:
+          "Pour que je puisse déménager à ma maison qui est à Çardarlı, il faut que le chantier soit terminé.",
+        turkish:
+          "Çardarlıdaki evime taşınabilmem için, şantiye bitmesi gerekiyor.",
+        explanation:
+          "Usage du subjonctif avec 'bitmesi gerekiyor' pour exprimer une condition.",
+      },
+      {
+        french: "Pour que je ne me blesse pas, il faut que je mette des gants.",
+        turkish: "Yaralanmamam için, eldiven takmam gerekiyor.",
+        explanation:
+          "Utilisation de 'yaralanmamam için' pour exprimer une prévention avec 'gerekiyor'.",
+      },
+      {
+        french: "J'ai parlé en turc pour que tu ne puisses pas comprendre.",
+        turkish: "Beni anlayamaman için, Türkçe konuştum.",
+        explanation: "Usage de 'anlayamaman için' pour montrer une raison.",
+      },
+      {
+        french:
+          "Pour que vous puissiez aller voir votre famille à Noël, il faut que le train soit à l'heure.",
+        turkish:
+          "Noel'de ailenizi görmeye gidebilmeniz için, trenin zamanında kalkması gerekiyor.",
+        explanation:
+          "Utilisation de 'görmeye gidebilmeniz için' pour indiquer une condition nécessaire.",
+      },
+      {
+        french: "Que puis-je faire d'autre pour que tu m'aimes encore ?",
+        turkish: "Beni hala sevmen için, baska ne yapalirim?",
+        explanation:
+          "Usage de 'hala sevmen için' pour exprimer un but avec 'ne yapmam gerekiyor'.",
+      },
+      {
+        french:
+          "Pour que mon voisin puisse oublier la fille qu'il aimait, il faut qu'il boive du rakı.",
+        turkish: "Komşumun sevdiği kızı unutabilmesi için, rakı içmesi lazım.",
+        explanation:
+          "Usage de 'unutabilmesi için' pour indiquer une condition hypothétique avec 'lazım'.",
+      },
+    ],
+  },
 ];

@@ -805,4 +805,12 @@ export const flashcards: Flashcard[] = [
     exemple:
       "Kızım anaokuluna başladı. (Ma fille a commencé l'école maternelle.)",
   },
+  {
+    front: "Yoğun",
+    back: "Occupé / Dense",
+    context:
+      "Utilisé pour décrire une personne occupée ou une situation dense selon le contexte.",
+    exemple:
+      "Bugün çok yoğunum. (Aujourd'hui, je suis très occupé.) / Trafik çok yoğun. (Le trafic est très dense.)",
+  },
 ];

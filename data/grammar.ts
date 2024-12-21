@@ -245,6 +245,59 @@ export const grammarRules: GrammarRule[] = [
   },
 
   {
+    title:
+      "'Pour aller faire quelque chose' ou 'Pour finir de faire quelque chose'",
+    content:
+      "En turc, pour exprimer un objectif ou une condition comme 'pour aller voir' ou 'pour finir de travailler', on utilise une construction qui combine plusieurs éléments grammaticaux. Voici une structure générique :\n\n" +
+      "### 1. **Verbe de base + -mA** (Nominalisation)\n" +
+      "- On prend la racine du verbe principal et on ajoute **-mA** pour le nominaliser. Cela transforme l'action en un nom abstrait.\n" +
+      "- Exemple :\n" +
+      "  - **görmek** (voir) → **görme** (le fait de voir).\n" +
+      "  - **çalışmak** (travailler) → **çalışma** (le fait de travailler).\n\n" +
+      "### 2. **Ajouter '-ye' ou '-e' pour la direction**\n" +
+      "- On ajoute le suffixe **-e** (harmonisé en **-ye** si nécessaire) pour indiquer une direction ou un objectif.\n" +
+      "- Exemple :\n" +
+      "  - **görme + -ye → görmeye** (pour voir).\n" +
+      "  - **çalışma + -ya → çalışmaya** (pour travailler).\n\n" +
+      "### 3. **Combiner avec un verbe auxiliaire (gitmek, bitirmek, etc.)**\n" +
+      "- On combine la forme nominalisée avec un verbe auxiliaire pour indiquer l'action principale.\n" +
+      "- Exemple :\n" +
+      "  - **görmeye gitmek** : aller voir.\n" +
+      "  - **çalışmaya başlamak** : commencer à travailler.\n\n" +
+      "### 4. **Ajouter '-ebilmek' pour exprimer la capacité ou possibilité**\n" +
+      "- Pour indiquer une possibilité ou une capacité, on ajoute **-ebilmek** au verbe.\n" +
+      "- Exemple :\n" +
+      "  - **görmeye gidebilmek** : être capable d'aller voir.\n" +
+      "  - **çalışmaya devam edebilmek** : pouvoir continuer à travailler.\n\n" +
+      "### 5. **Suffixe possessif + 'için' (pour que)**\n" +
+      "- On utilise un possessif pour indiquer *qui* est concerné par l'action, puis on ajoute **için** pour indiquer l'objectif ou la condition.\n" +
+      "- Exemple :\n" +
+      "  - **görmeye gidebilmeniz için** : pour que vous puissiez aller voir.\n" +
+      "  - **çalışmayı bitirmeniz için** : pour que vous puissiez finir de travailler.\n\n" +
+      "### Résumé de la structure complète :\n" +
+      "- Verbe + -mA (nominalisation) + -e/-ye (direction) + verbe auxiliaire (gitmek, bitirmek, etc.) + -ebilmek (possibilité) + suffixe possessif + için (pour que).\n\n",
+    examples: [
+      {
+        turkish:
+          "Noel'de ailenizi görmeye gidebilmeniz için, trenin zamanında kalkması gerekiyor.",
+        french:
+          "Pour que vous puissiez aller voir votre famille à Noël, il faut que le train soit à l'heure.",
+      },
+      {
+        turkish:
+          "Arkadaşınızı görmeye gitmeniz için, erken çıkmanız gerekiyor.",
+        french:
+          "Pour que vous puissiez aller voir votre ami, il faut que vous partiez tôt.",
+      },
+      {
+        turkish:
+          "Patronunuzu ikna etmeniz için, daha iyi bir plan hazırlamanız gerekiyor.",
+        french:
+          "Pour convaincre votre patron, il faut que vous prépariez un meilleur plan.",
+      },
+    ],
+  },
+  {
     title: "Le Verbe 'Gerekmek' pour exprimer une nécessité ou une obligation",
     content:
       "'Gerekmek' est un verbe utilisé pour exprimer une nécessité ou une obligation en turc. Il est souvent suivi d'un verbe à l'infinitif ou d'une construction en '-mesi/-ması'. Voici les principales caractéristiques :\n\n" +
@@ -293,6 +346,64 @@ export const grammarRules: GrammarRule[] = [
           "Fenerbahçe'nin başkanına, Galatasaray maçını kazanmaları gerektiğini söyledim.",
         french:
           "J'ai dit au président de Fenerbahçe qu'il fallait qu'ils gagnent le match contre Galatasaray.",
+      },
+    ],
+  },
+  {
+    title:
+      "Pour exprimer 'Pour que je puisse faire', 'Pour que je ne puisse pas faire', et 'Il faut que je puisse faire'",
+    content:
+      "Ces structures en turc combinent plusieurs éléments grammaticaux pour exprimer des objectifs ou des nécessités. Voici les différentes constructions :\n\n" +
+      "### 1. **Pour que je puisse faire :**\n" +
+      "La possibilité est exprimée avec **'-ebilmek'**, suivie d'un possessif et de **'için'** (pour que).\n" +
+      "**Structure :**\n" +
+      "- Racine verbale (RV) + (Y)ebilmek + suffixe possessif + için.\n\n" +
+      "**Exemple avec *yapmak* (faire) :**\n" +
+      "- Yapabilmem için : Pour que je puisse faire.\n" +
+      "- Yapabilmen için : Pour que tu puisses faire.\n" +
+      "- Yapabilmesi için : Pour qu'il/elle puisse faire.\n\n" +
+      "### 2. **Pour que je ne puisse pas faire :**\n" +
+      "La négation de la possibilité est exprimée avec **'-ememek' / '-amamak'**, suivie d'un possessif et de **'için'** (pour que).\n" +
+      "**Structure :**\n" +
+      "- Racine verbale (RV) + (Y)ememek / (Y)amamak + suffixe possessif + için.\n\n" +
+      "**Exemple avec *yapmak* (faire) :**\n" +
+      "- Yapamamam için : Pour que je ne puisse pas faire.\n" +
+      "- Yapamaman için : Pour que tu ne puisses pas faire.\n" +
+      "- Yapamaması için : Pour qu'il/elle ne puisse pas faire.\n\n" +
+      "### 3. **Il faut que je puisse faire :**\n" +
+      "Pour combiner la possibilité et la nécessité, on utilise **'-ebilmek'** suivi de **'gerekmek'** (falloir).\n" +
+      "**Structure :**\n" +
+      "- Racine verbale (RV) + (Y)ebilmek + suffixe possessif + gerekiyor.\n\n" +
+      "**Exemple avec *yapmak* (faire) :**\n" +
+      "- Yapabilmem gerekiyor : Il faut que je puisse faire.\n" +
+      "- Yapabilmen gerekiyor : Il faut que tu puisses faire.\n" +
+      "- Yapabilmesi gerekiyor : Il faut qu'il/elle puisse faire.",
+    examples: [
+      {
+        turkish: "Okula gidebilmem için erken kalkmam gerekiyor.",
+        french:
+          "Pour que je puisse aller à l'école, il faut que je me lève tôt.",
+      },
+      {
+        turkish: "Projeyi bitirebilmemiz için daha çok çalışmamız gerekiyor.",
+        french:
+          "Pour que nous puissions terminer ce projet, il faut que nous travaillions davantage.",
+      },
+      {
+        turkish: "Yalan söyleyememesi için ona güvenmememiz gerekiyor.",
+        french:
+          "Pour qu'il ne puisse pas mentir, il faut que nous ne lui fassions pas confiance.",
+      },
+      {
+        turkish: "Kitabı alabilmeniz için size para göndereceğim.",
+        french:
+          "Pour que vous puissiez acheter le livre, je vais vous envoyer de l'argent.",
+      },
+      {
+        turkish:
+          "Herkesin sınavı geçebilmesi için daha çok çalışması gerekiyor.",
+        french:
+          "Pour que tout le monde puisse réussir l'examen, il faut que chacun travaille davantage.",
       },
     ],
   },
