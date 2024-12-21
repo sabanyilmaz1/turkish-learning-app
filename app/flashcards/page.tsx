@@ -23,7 +23,14 @@ export default function FlashCards() {
     toggleMode,
     remainingCards,
     progress,
+    mode,
   } = useFlashcards(flashcards, startWithFrench);
+
+  const playAudio = (text: string, language: string) => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = language; // Définir la langue sur le turc
+    speechSynthesis.speak(utterance);
+  };
 
   if (!currentCard) {
     return (
@@ -112,7 +119,6 @@ export default function FlashCards() {
                 </div>
               </CardContent>
             </Card>
-
             <Card
               className={`${styles.cardFace} ${styles.cardBack} relative cursor-pointer bg-white/80 dark:bg-zinc-900/80 backdrop-blur-sm border-2 hover:border-indigo-500/50 transition-all duration-300 shadow-xl hover:shadow-2xl`}
               onClick={() => setIsFlipped(!isFlipped)}
@@ -146,12 +152,33 @@ export default function FlashCards() {
           </div>
         </div>
 
+        {!isFlipped && (
+          <div className="flex justify-end">
+            <Button
+              variant="outline"
+              onClick={() => playAudio(displayFront, mode ? "FR" : "TR")}
+              className=""
+            >
+              Écouter
+            </Button>
+          </div>
+        )}
+
         {isFlipped && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="flex justify-center gap-4 mt-8"
           >
+            <div className="flex justify-end">
+              <Button
+                variant="outline"
+                onClick={() => playAudio(displayBack, mode ? "TR" : "FR")}
+                className=""
+              >
+                Écouter
+              </Button>
+            </div>
             <Button
               variant="outline"
               onClick={handleFailure}
