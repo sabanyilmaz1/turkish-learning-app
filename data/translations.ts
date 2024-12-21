@@ -364,7 +364,7 @@ export const translations: TranslationWeek[] = [
       {
         french: "J'ai parlé en turc pour que tu ne puisses pas comprendre.",
         turkish: "Beni anlayamaman için, Türkçe konuştum.",
-        explanation: "Usage de 'anlayamaman için' pour montrer une raison.",
+        explanation: "Usage de  'anlayamaman için' pour montrer une raison.",
       },
       {
         french:
