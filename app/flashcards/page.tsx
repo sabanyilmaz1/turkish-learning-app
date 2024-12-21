@@ -8,6 +8,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 import Link from "next/link";
+
 import { Home } from "lucide-react";
 
 export default function FlashCards() {
