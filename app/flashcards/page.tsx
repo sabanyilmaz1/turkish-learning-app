@@ -24,14 +24,14 @@ export default function FlashCards() {
     toggleMode,
     remainingCards,
     progress,
-    mode,
+    // mode,
   } = useFlashcards(flashcards, startWithFrench);
 
-  const playAudio = (text: string, language: string) => {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = language; // Définir la langue sur le turc
-    speechSynthesis.speak(utterance);
-  };
+  // const playAudio = (text: string, language: string) => {
+  //   const utterance = new SpeechSynthesisUtterance(text);
+  //   utterance.lang = language; // Définir la langue sur le turc
+  //   speechSynthesis.speak(utterance);
+  // };
 
   if (!currentCard) {
     return (
@@ -153,7 +153,7 @@ export default function FlashCards() {
           </div>
         </div>
 
-        {!isFlipped && (
+        {/* {!isFlipped && (
           <div className="flex justify-end">
             <Button
               variant="outline"
@@ -163,7 +163,7 @@ export default function FlashCards() {
               Écouter
             </Button>
           </div>
-        )}
+        )} */}
 
         {isFlipped && (
           <motion.div
@@ -171,7 +171,7 @@ export default function FlashCards() {
             animate={{ opacity: 1, y: 0 }}
             className="flex justify-center gap-4 mt-8"
           >
-            <div className="flex justify-end">
+            {/* <div className="flex justify-end">
               <Button
                 variant="outline"
                 onClick={() => playAudio(displayBack, mode ? "TR" : "FR")}
@@ -179,7 +179,7 @@ export default function FlashCards() {
               >
                 Écouter
               </Button>
-            </div>
+            </div> */}
             <Button
               variant="outline"
               onClick={handleFailure}
