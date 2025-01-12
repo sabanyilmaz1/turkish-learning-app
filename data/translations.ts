@@ -389,4 +389,65 @@ export const translations: TranslationWeek[] = [
       },
     ],
   },
+  {
+    title: "Devoirs 9",
+    translations: [
+      {
+        french:
+          "Pour que je puisse faire ce que demande mon chef, il faut que je lise les dossiers.",
+        turkish: "Şefimin istediğini yapabilmem için, dosyaları okumam lazım.",
+        explanation:
+          "Le subjonctif en français est traduit en turc par un verbe à l'infinitif suivi de 'lazım' pour exprimer la nécessité.",
+      },
+      {
+        french: "Je vous ai déjà expliqué ce que vous deviez faire.",
+        turkish: "Size ne yapmanız gerektiğini daha önce anlattım.",
+        explanation:
+          "L'emploi de 'gerektiğini' pour traduire 'ce que vous deviez faire' souligne une obligation ou un devoir passé.",
+      },
+      {
+        french: "Je suis désolé, mais je ne peux pas faire ce que vous voulez.",
+        turkish: "Özür dilerim, ama istediğinizi yapamam.",
+        explanation:
+          "'Je suis désolé' est traduit par 'Özür dilerim' et l'impossibilité par 'yapamam'.",
+      },
+      {
+        french:
+          "J'espère que les cadeaux que je vous ai envoyés sont bien arrivés.",
+        turkish:
+          "Umarım ki size göndermiş  hediyeler iyi (şekilde geldi) ulaştı.",
+        explanation: "L'espoir est exprimé par 'Umarım ki'",
+      },
+      {
+        french:
+          "Le premier ministre qui ne veut pas faire ce que dit le président a démissionné.",
+        turkish:
+          "Cumhurbaşkanının dediğini yapmak istemeyen başbakan istifa etti.",
+        explanation:
+          "La phrase relative est rendue en turc par une structure simplifiée et directe avec 'istemeyen'.",
+      },
+      {
+        french: "Je vous prie de me rendre ce que vous m'avez pris.",
+        turkish: "Benden aldığınızı geri vermenizi rica ederim.",
+        explanation:
+          "'Je vous prie' est traduit par 'rica ederim', qui exprime une demande polie.",
+      },
+      {
+        french:
+          "Can qui a été en Norvège avec sa famille n'était pas content parce qu'il faisait froid.",
+        turkish:
+          "Ailesiyle Norveç'e giden Can, mutlu değildi çünkü hava soğuktu.",
+        explanation:
+          "'Parce qu'il faisait froid' est rendu par 'çünkü hava soğuktu', une explication directe.",
+      },
+      {
+        french:
+          "Je vous conseille d'appeler le directeur dans une heure parce qu'il est occupé maintenant.",
+        turkish:
+          "Bir saat sonra müdürü aramanızı tavsiye ederim, çünkü o şu an meşgul.",
+        explanation:
+          "'Je vous conseille' est traduit par 'tavsiye ederim', et 'parce qu'il est occupé' par 'çünkü o şu an meşgul'.",
+      },
+    ],
+  },
 ];
