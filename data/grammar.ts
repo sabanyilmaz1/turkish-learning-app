@@ -407,4 +407,72 @@ export const grammarRules: GrammarRule[] = [
       },
     ],
   },
+  {
+    title:
+      "Utilisation de 'Puisque' en turc : 'Çünkü', 'İçin', et autres constructions",
+    content:
+      "En turc, l'expression de la cause avec 'Puisque' se fait de différentes manières selon le contexte de la phrase. Ce cours explique comment utiliser **'çünkü'**, **'için'**, et d'autres structures pour exprimer des causes et des résultats.\n\n" +
+      "### 1. **'Çünkü' pour exprimer une cause directe :**\n" +
+      "'Çünkü' est utilisé pour introduire directement une cause dans la phrase. Il est l'équivalent de 'puisque' ou 'parce que' en français.\n" +
+      "**Structure :**\n" +
+      "- **Cause** + **çünkü** + **Résultat**.\n\n" +
+      "**Exemple :**\n" +
+      "- **Çalışamıyorum çünkü çok yorgunum.** → Je ne peux pas travailler, puisque je suis très fatigué.\n\n" +
+      "### 2. **'İçin' pour exprimer une cause suivie d'une conséquence (but, nécessité) :**\n" +
+      "Lorsque l'on veut exprimer une cause avec un objectif ou une conséquence future, on utilise **'için'** (pour que).\n" +
+      "**Structure :**\n" +
+      "- **Cause** + **için** + **Résultat**.\n\n" +
+      "**Exemple :**\n" +
+      "- **Ali'nin verdiği cevaplar tatmin edici olmadığı için, savcı avukatını çağırdı.** → Puisque les réponses données par Ali ne sont pas satisfaisantes, le procureur a appelé son avocat.\n" +
+      "- **Bu projeyi bitirebilmemiz için, daha çok çalışmamız gerekiyor.** → Pour que nous puissions terminer ce projet, il faut que nous travaillions davantage.\n\n" +
+      "### 3. **'Sebep' pour une cause générale (plus formelle) :**\n" +
+      "Pour des formulations plus formelles ou générales, on peut utiliser **'sebep'**.\n" +
+      "**Structure :**\n" +
+      "- **Sebep** + de + cause + **daha önce** + résultat.\n\n" +
+      "**Exemple :**\n" +
+      "- **Sebep olarak çok çalışmak, önceki başarısızlığa yol açtı.** → Puisque la cause est un travail acharné, cela a conduit à un échec précédent.\n\n" +
+      "### 4. **Exemple complet avec 'Çünkü' :**\n" +
+      "Prenons la phrase suivante : **'Puisque les réponses que Ali a données ne sont pas satisfaisantes, le procureur a appelé son avocat.'**\n" +
+      "En turc, la traduction correcte serait :\n" +
+      "**Ali'nin verdiği cevaplar tatmin edici olmadığı için, savcı avukatını çağırdı.**\n\n" +
+      "### Analyse :\n" +
+      "1. **Cause** : **Ali'nin verdiği cevaplar tatmin edici değil** (Les réponses données par Ali ne sont pas satisfaisantes).\n" +
+      "2. **'İçin'** : Cette structure relie la cause au résultat. 'İçin' est plus approprié ici pour indiquer une cause suivie d'une conséquence ou d'une action.\n" +
+      "3. **Résultat** : **Savcı avukatını çağırdı** (Le procureur a appelé son avocat).\n\n" +
+      "### 5. **Utilisation de 'Daha önce' pour une cause antérieure :**\n" +
+      "'Daha önce' est utilisé pour exprimer une cause qui s'est produite dans le passé, et justifie une action dans le présent.\n" +
+      "**Structure :**\n" +
+      "- **Daha önce** + action qui justifie.\n\n" +
+      "**Exemple :**\n" +
+      "- **Daha önce çok çalıştım, bu yüzden başarı elde ettim.** → Puisque j'ai travaillé dur auparavant, j'ai réussi.\n\n",
+    examples: [
+      {
+        turkish: "Çalışamıyorum çünkü çok yorgunum.",
+        french:
+          "Je ne peux pas travailler, puisque je suis très fatigué. (Utilisation de 'çünkü' pour exprimer une cause directe et immédiate.)",
+      },
+      {
+        turkish:
+          "Ali'nin verdiği cevaplar tatmin edici olmadığı için, savcı avukatını çağırdı.",
+        french:
+          "Puisque les réponses que Ali a données ne sont pas satisfaisantes, le procureur a appelé son avocat. (Utilisation de 'için' pour exprimer une cause suivie d'une conséquence (objectif))",
+      },
+      {
+        turkish:
+          "Bu projeyi bitirebilmemiz için, daha çok çalışmamız gerekiyor.",
+        french:
+          "Pour que nous puissions terminer ce projet, il faut que nous travaillions davantage. (Utilisation de 'için' pour exprimer un objectif ou une nécessité de la cause.)",
+      },
+      {
+        turkish: "Sebep olarak çok çalışmak, önceki başarısızlığa yol açtı.",
+        french:
+          "Puisque la cause est un travail acharné, cela a conduit à un échec précédent. (Utilisation de 'sebep' pour une formulation plus formelle et générale.)",
+      },
+      {
+        turkish: "Daha önce çok çalıştım, bu yüzden başarı elde ettim.",
+        french:
+          "Puisque j'ai travaillé dur auparavant, j'ai réussi. (Utilisation de 'daha önce' pour justifier une action présente par une cause passée.)",
+      },
+    ],
+  },
 ];
